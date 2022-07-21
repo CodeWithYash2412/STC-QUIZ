@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Dancing+Script&family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+.btnSize {
+    width: 70%;
+}
+
+.btnSize1 {
+    width: 50%;
+    /* border: 2px black solid; */
+    border-radius: 5px;
+    /* background-color: white; */
+    transition: all linear 500ms;
+    margin: 5px 0;
+}
+
+.btnSize1:hover {
+    background-color: #023047;
+    color: white;
+    /* border: 2px white solid; */
+    border-radius: 10px;
+    transition: all linear 500ms;
+}
+
+@media only screen and (max-width: 750px) {
+    .btnSize1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-link {
+        text-align: center !important;
+    }
+}
+
+.showHide {
+    display: none;
+}
+
+.fontMain {
+    font-family: 'Cormorant SC', serif;
+}
+
+.fontSubMain {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.fontPara {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.bgChange {
+    /* background-image: radial-gradient(circle at 92.3% 71.5%, rgb(83, 138, 214) 0%, rgb(134, 231, 214) 90%); */
+    /* background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(14, 174, 87, 1) 0%, rgba(12, 116, 117, 1) 90%); */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(255, 209, 67, 1) 0%, rgba(255, 145, 83, 1) 90%);
+}
