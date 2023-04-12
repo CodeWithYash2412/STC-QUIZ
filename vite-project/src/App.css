@@ -31,6 +31,11 @@
     .nav-link {
         text-align: center !important;
     }
+    .smCen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .showHide {

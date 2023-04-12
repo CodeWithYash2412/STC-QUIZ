@@ -14,7 +14,7 @@ const Material = () => {
                 <a className='btn btn-outline-primary btnSize mb-3' target='_blank' href='https://talimrojgar.gujarat.gov.in/2014/Talimrojgar.aspx?t=Object_Master&c=Object_Id&i=283&ti=Object_Name&h=Training%20Material#.Ytl3V6hN00G'>SI Material</a>
                 {/* <button className='btn btn-outline-primary mb-3 btnSize'>SI Material</button> */}
                 {/* <button className='btn btn-primary btnSize'>Student Material</button> */}
-                <a className='btn btn-primary btnSize' target='_blank' href='https://talimrojgar.gujarat.gov.in/2014/Talimrojgar.aspx?t=Object_Master&c=Object_Id&i=285&ti=Object_Name&h=ITI%20Virtual%20Classroom#.Ytl3Z6hN00E'>Student Material</a>                
+                <a className='btn btn-primary btnSize mb-3' target='_blank' href='https://talimrojgar.gujarat.gov.in/2014/Talimrojgar.aspx?t=Object_Master&c=Object_Id&i=285&ti=Object_Name&h=ITI%20Virtual%20Classroom#.Ytl3Z6hN00E'>Student Material</a>                
             </div>
         </div>
 

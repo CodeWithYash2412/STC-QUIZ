@@ -5,7 +5,7 @@ const MainQuiz = (props) => {
     const [select, getSelect] = useState();
   useEffect(() => {
     setData(null);
-    fetch(`https://quizstcapi.herokuapp.com/${props.name}/${props.value}`)
+    fetch(`https://web-production-f9de.up.railway.app/${props.name}/${props.value}`)
       .then((res) => res.json())
       .then(setData);
   }, [props.value, props.name]);
@@ -22,8 +22,11 @@ const MainQuiz = (props) => {
         {data.map((item,i)  => (
             <>
             
-            <h3> Q.{i+1} {item.Question} </h3>
-            <img src={item.image} width={200} alt="" /> <br />
+            <h3 className='mt-2'> Q.{i+1} {item.Question} </h3>
+            <div className='border border-white p-2 smCen'>
+            <img src={item.image} className='' width={200} alt="" /> <br />
+
+            </div>
             <button className='btnSize1 btn btn-primary'> {item.Option1} </button> <br />
             <button className='btnSize1 btn btn-primary'> {item.Option2} </button> <br />
             <button className='btnSize1 btn btn-primary'> {item.Option3} </button> <br />
